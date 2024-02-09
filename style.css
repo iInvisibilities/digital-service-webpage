@@ -68,6 +68,7 @@ nav {
     list-style-position: inside;
     box-shadow: 3px 3px #864AF9, 3px 0px #864AF9;
     margin-top: 43px;
+    background-color: white;
 }
 
 #pagesNav a:has(ul) {
@@ -110,4 +111,13 @@ iframe {
     overflow-x: hidden;
     overflow-y: hidden;
     margin-top: 63px;
+}
+
+.inside {
+    color: #864AF9;
+    background-image: url("inside.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
 }
