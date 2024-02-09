@@ -1,0 +1,104 @@
+body {
+    margin: 0%;
+    overflow: hidden;
+    background-color: #332941;
+}
+
+main {
+    padding: 50px;
+    display: grid;
+    width: 40%;
+    min-width: max-content;
+    margin: 5% auto 0px auto;
+    justify-items: start;
+    align-content: center;
+    gap: 50px;
+    background-color: #864AF9;
+    border: 1px solid #332941;
+    font-family: "Poppins";
+    box-shadow: 3px 3px 10px black;
+}
+
+h1 {
+    color: #F8E559;
+    text-shadow: 2px 2px 10px gray;
+    margin: 0%;
+}
+
+.input-field label {
+    color: #F8E559;
+    font-size: x-large;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 75%;
+    flex-flow: column;
+}
+
+.input-field input {
+    border-radius: 5px;
+    border: 1px solid #332941;
+    background-color: #864AF9;
+    height: 40px;
+    width: 75%;
+    min-width: 275px;
+    outline: none;
+    text-indent: 5px;
+    color: white;
+    font-size: large;
+    transition: all .1s;
+}
+
+.input-field input::placeholder {
+    color: white;
+    text-indent: 5px;
+}
+
+.input-field input:focus {
+    box-shadow: 3px 3px #332941;
+}
+
+a {
+    width: 120px;
+    height: fit-content;
+    padding: 10px 20px;
+    background-color: #332941;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #3B3486;
+    color: #F8E559;
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+}
+
+.decoration {
+    position: absolute;
+    width: 300px;
+    filter: drop-shadow(5px 5px 5px black);
+    user-select: none;
+    z-index: -1;
+}
+
+.leaf1 {
+    width: 500px;
+    transform: translateX(500px) translateY(-10px) rotate(70deg);
+}
+
+.leaf2 {
+    transform: translateX(-40px) translateY(-220px) rotate(170deg);
+}
+
+
+.leaf3 {
+    transform: translateX(900px) translateY(150px) rotate(170deg);
+}
+.leaf4 {
+    transform: translateX(500px) translateY(-50px) rotate(100deg);
+}
+
+.leaf5 {
+    transform: translateX(-40px) translateY(520px) rotate(170deg);
+}
