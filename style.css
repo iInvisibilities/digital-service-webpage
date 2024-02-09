@@ -1,0 +1,100 @@
+body {
+    margin: 0%;
+}
+
+nav {
+    display: grid;
+    grid-template-areas: "pages login";
+    grid-template-columns: 3fr 1fr;
+    background-color: #3B3486;
+    overflow: visible;
+    min-width: 850px;
+}
+
+#pagesNav {
+    grid-area: pages;
+    width: 650px;
+    display: inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: "Ata";
+}
+
+#pagesNav a:not(:has(img)) {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: capitalize;
+    margin-top: 10px;
+    padding: 10px 20px 20px 20px;
+}
+
+#loginNav {
+    grid-area: login;
+    width: 200px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Ata";
+}
+
+#pagesNav a:not(:has(img)):hover {
+    background-color: #F8E559;
+}
+
+#loginNav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: capitalize;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    box-shadow: 3px 3px #864AF9;
+}
+
+#signup {
+    background-color: #864AF9;
+}
+
+#loginNav a:active {
+    padding: 7px 10px 7px 10px;
+}
+
+#pagesNav a ul {
+    padding: 0%;
+    display: none;
+    position: absolute;
+    list-style: url("ulIcon.svg");
+    list-style-position: inside;
+    background-color: #F8E559;
+    box-shadow: 3px 3px #864AF9, 3px 0px #864AF9;
+    margin-top: 43px;
+}
+
+#pagesNav a:has(ul) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#pagesNav a:has(ul):hover ul {
+    display: block;
+}
+
+#pagesNav a ul li {
+    padding: 20px;
+    color: #3B3486;
+    font-weight: 900;
+}
+
+#pagesNav a ul li:hover {
+    background-color: #864AF9;
+    cursor: pointer;
+}
+
+#pagesNav a ul li:active {
+    background-color: #332941;
+    color: #F8E559;
+}
