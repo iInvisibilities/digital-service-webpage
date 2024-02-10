@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     overflow: hidden;
-    background-color: #332941;
+    background-color: #864AF9;
 }
 
 main {
@@ -13,20 +13,20 @@ main {
     justify-items: start;
     align-content: center;
     gap: 50px;
-    background-color: #864AF9;
-    border: 1px solid #332941;
+    background-color: #332941;
+    border: 1px solid #864AF9;
     font-family: "Poppins";
     box-shadow: 3px 3px 10px black;
 }
 
 h1 {
-    color: #F8E559;
-    text-shadow: 2px 2px 10px gray;
+    color: white;
+    box-shadow: 0px 4px #864AF9;
     margin: 0%;
 }
 
 .input-field label {
-    color: #F8E559;
+    color: #864AF9;
     font-size: x-large;
 }
 
@@ -40,8 +40,8 @@ h1 {
 
 .input-field input {
     border-radius: 5px;
-    border: 1px solid #332941;
-    background-color: #864AF9;
+    border: 1px solid #864AF9;
+    background-color: #332941;
     height: 40px;
     width: 75%;
     min-width: 275px;
@@ -63,12 +63,13 @@ h1 {
 }
 
 a {
-    width: 120px;
+    width: 190px;
     height: fit-content;
     padding: 10px 20px;
-    background-color: #332941;
+    background-color: #864AF9;
     border-radius: 5px;
-    box-shadow: 3px 3px 10px #3B3486;
+    box-shadow: 3px 3px 0px #F8E559;
+    border: 2px solid #332941;
     color: #F8E559;
     text-decoration: none;
     text-align: center;
@@ -85,21 +86,21 @@ a {
 
 .leaf1 {
     width: 500px;
-    transform: translateX(500px) translateY(-10px) rotate(70deg);
+    transform: translateX(500px) translateY(-10px) rotate(100deg);
 }
 
 .leaf2 {
-    transform: translateX(-40px) translateY(-220px) rotate(170deg);
+    transform: translateX(-10px) translateY(-20px) rotate(100deg);
 }
 
 
 .leaf3 {
-    transform: translateX(900px) translateY(150px) rotate(170deg);
+    transform: translateX(900px) translateY(150px) rotate(100deg);
 }
 .leaf4 {
-    transform: translateX(500px) translateY(-50px) rotate(100deg);
+    transform: translateX(500px) translateY(400px) rotate(100deg);
 }
 
 .leaf5 {
-    transform: translateX(-40px) translateY(520px) rotate(170deg);
+    transform: translateX(-40px) translateY(520px) rotate(200deg);
 }

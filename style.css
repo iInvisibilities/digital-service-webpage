@@ -107,7 +107,7 @@ nav {
 }
 
 iframe {
-    height: calc(100vh - 67px);
+    height: 100vh;
     overflow-x: hidden;
     overflow-y: hidden;
     margin-top: 63px;
@@ -119,5 +119,4 @@ iframe {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
 }
